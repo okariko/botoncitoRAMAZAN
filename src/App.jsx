@@ -10,11 +10,11 @@ return (
 <h1>First React app</h1>
 <Botoncito text="CLICK ME!" color={botoncitoColor} onClick={()=>console.log("HAHA, GOT YOU!")}/>
 <Botoncito text="CLICK ME, INSTEAD!" color={botoncitoColor} onClick={()=>console.log("PHEW, THANKS FOR NOT CLICKING ON THAT GUY!")}/>
-<Botoncito text="what the f am i even doing here?" color={botoncitoColor} onClick={()=>console.log("OUCH! WHY ME?")}/>
+<Botoncito text="what the am i even doing here?" color={botoncitoColor} onClick={()=>console.log("OUCH! WHY ME?")}/>
 </div>
 <div>
 <h2>Change our colours!</h2>
-<ColourChanger colourtext="Change ts to a different colour!" onChangeColor={()=>setBotoncitoColor("green")}/>
+<ColourChanger colourtext="Change them to a different colour!" onChangeColor={()=>setBotoncitoColor("green")}/>
 </div>
 </>
 );
